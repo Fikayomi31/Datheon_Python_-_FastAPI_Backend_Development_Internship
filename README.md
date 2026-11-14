@@ -10,6 +10,7 @@ Three backend projects built during the **Python + FastAPI Backend Development I
 
 **Common stack:** Python, FastAPI, Pydantic, async SQLAlchemy, SQLite (aiosqlite), Uvicorn.
 
+
 ---
 
 ## 1. BookStore_API
@@ -69,6 +70,6 @@ uvicorn app.main:app --reload    # then open http://127.0.0.1:8000/docs
 
 Notes also needs a `SECRET_KEY` in `.env` and `alembic upgrade head` before the first run. User_auth needs a JWT secret in `.env`.
 
-## Author
 
+## Author
 Fikayo Ogundijo
